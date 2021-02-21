@@ -81,8 +81,16 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="App_Data\Products.mdf" />
+    <Content Include="App_Data\Products_log.ldf">
+      <DependentUpon>Products.mdf</DependentUpon>
+    </Content>
     <Content Include="Delete.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="images\image_4.jpg" />
+    <Content Include="images\image_3.jpg" />
+    <Content Include="images\image_1.jpg" />
+    <Content Include="images\image_2.jpg" />
     <Content Include="Update.aspx" />
     <Content Include="ViewAll.aspx" />
     <Content Include="Web.config" />
@@ -159,6 +167,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\MyService\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

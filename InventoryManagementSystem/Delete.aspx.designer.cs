@@ -24,22 +24,22 @@ namespace InventoryManagementSystem
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// panSearch control.
+        /// id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTable panSearch;
+        protected global::System.Web.UI.WebControls.TextBox id;
 
         /// <summary>
-        /// txtSearch control.
+        /// name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSearch;
+        protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
         /// btnDelete control.
@@ -51,13 +51,22 @@ namespace InventoryManagementSystem
         protected global::System.Web.UI.WebControls.Button btnDelete;
 
         /// <summary>
-        /// lblSearchResult control.
+        /// bntReset control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSearchResult;
+        protected global::System.Web.UI.WebControls.Button bntReset;
+
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
         /// grdEmployees control.
