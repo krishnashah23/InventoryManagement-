@@ -49,9 +49,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\InventoryManagementSystem\InventoryManagementSystem.csproj">
       <Project>{B43BD171-83CD-48D3-B4CE-02F1A47F7A54}</Project>
       <Name>InventoryManagementSystem</Name>
